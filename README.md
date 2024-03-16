@@ -11,7 +11,7 @@ Deploy fulltstack react frontend, spring boot backend and Mysql based applicatio
 
 NOTE: to build the server, use below repo for the terraform script
 
-https://github.com/ooghenekaro/droplet-linux.git
+Use the terraform script in the Terraform_DO_LinuxServer folder to provision an Ubuntu droplet in Digital Ocean
 
 NOTE: Run backend and front end app and test working of app first
 
