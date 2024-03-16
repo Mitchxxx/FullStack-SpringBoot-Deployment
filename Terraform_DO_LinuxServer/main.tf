@@ -13,12 +13,4 @@ resource "digitalocean_droplet" "mitch-droplet" {
   size     = var.droplet_size
   ssh_keys = [data.digitalocean_ssh_key.mitch-dokey.id]
 
-  # provisioner "local-exec" {
-  #   command = "scp -i ~/.ssh/id_rsa.pub install.sh root@${self.ipv4_address}:/tmp/"
-  # }
-
-  # provisioner "local-exec" {
-  #   command = "ssh -i ~/.ssh/id_rsa.pub root@${self.ipv4_address} 'sudo bash /tmp/install.sh'"
-  # }
-  
 }
